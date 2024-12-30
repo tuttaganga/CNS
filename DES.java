@@ -44,7 +44,7 @@ public class DES {
             
             // Decrypt
             String decryptedText = des.decrypt(encryptedText);
-            System.out.println("Decrypted Text: " + decryptedText);
+            System.out.println("Decrypted : " + decryptedText);
         } catch (Exception e) {
             e.printStackTrace();
         }
