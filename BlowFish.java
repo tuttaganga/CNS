@@ -1,10 +1,10 @@
 import java.io.*;
 import java.security.Key;
-import java.util.Base64;
 import javax.crypto.Cipher;
-import javax.crypto.CipherInputStream;
 import javax.crypto.CipherOutputStream;
+import javax.crypto.CipherInputStream;
 import javax.crypto.KeyGenerator;
+import java.util.Base64;
 
 public class BlowFish {
     public static void main(String[] args) {
