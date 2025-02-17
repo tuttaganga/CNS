@@ -18,7 +18,7 @@ public class CaesarCipher {
         }
         return result.toString();
     }
-
+ 
     // Decrypts the input text using the shift key
     public static String decrypt(String text, int shift) {
         return encrypt(text, 26 - (shift % 26));

@@ -46,7 +46,8 @@ public class BlowFish {
             cipherIn.init(Cipher.DECRYPT_MODE, secretKey, cipherOut.getParameters());
 
             // Open File Streams for Decryption
-            FileInputStream encryptedFile = new FileInputStream("outputFile.txt");
+            FileInputStream encryptedFi
+            le = new FileInputStream("outputFile.txt");
             CipherInputStream cin = new CipherInputStream(encryptedFile, cipherIn);
             ByteArrayOutputStream decryptedOutput = new ByteArrayOutputStream();
 

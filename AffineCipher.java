@@ -13,7 +13,7 @@ public class AffineCipher {
             } else {
                 ciphertext.append(character); // Non-alphabetic characters remain unchanged
             }
-        }
+        }  
         return ciphertext.toString();
     }
 
